@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.summary-modal{
+    display: none;
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
